@@ -4,8 +4,7 @@
 #include <stdlib.h>
 
 /* Initialize the base */
-char base[10] = {"none", "1", "2", "3", "4", "5", "6", "7", "8", "9"}; //"none" is only to match the index so there is no confusion
-
+char base[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}; //"none" is only to match the index so there is no confusion2
 int checkWin(); //it will return 1 if there is winner, -1 if the game is in progress, and 0 if game has been drawn  
 void drawBoard();
 
@@ -28,31 +27,31 @@ int main(){
         mark = (player == 1) ? 'X' : 'O'; 
 
         // if player's choice is n number, mark n 
-        if(choice == 1 && base[1] == "1"){
+        if(choice == 1 && base[1] == '1'){
             base[1] = mark;
         } 
-        else if (choice == 2 && base[2] == "2"){
+        else if (choice == 2 && base[2] == '2'){
             base[2] = mark;
         } 
-        else if (choice == 3 && base[3] == "3"){
+        else if (choice == 3 && base[3] == '3'){
             base[3] = mark;
         } 
-        else if (choice == 4 && base[4] == "4"){
+        else if (choice == 4 && base[4] == '4'){
             base[4] = mark;
         } 
-        else if (choice == 5 && base[5] == "5"){
+        else if (choice == 5 && base[5] == '5'){
             base[5] = mark;
         } 
-        else if (choice == 6 && base[6] == "6"){
+        else if (choice == 6 && base[6] == '6'){
             base[6] = mark;
         } 
-        else if (choice == 7 && base[7] == "7"){
+        else if (choice == 7 && base[7] == '7'){
             base[7] = mark;
         } 
-        else if (choice == 8 && base[8] == "8"){
+        else if (choice == 8 && base[8] == '8'){
             base[8] = mark;
         } 
-        else if (choice == 9 && base[9] == "9"){
+        else if (choice == 9 && base[9] == '9'){
             base[9] = mark;
         } 
         
@@ -109,7 +108,7 @@ int checkWin(){
     else if(base[3] == base[5] && base[5] == base[7]){
         return 1;
     } 
-    else if(base[1] != "1" && base[2] != "2" && base[3] != "3" && base[4] != "4" && base[5] != "5" && base[6] != "6" && base[7] != "7" && base[8] != "8" && base[9] != "9"){
+    else if(base[1] != '1' && base[2] != '2' && base[3] != '3' && base[4] != '4' && base[5] != '5' && base[6] != '6' && base[7] != '7' && base[8] != '8' && base[9] != '9'){
         return 0; //we have no winner
     }
     else 
