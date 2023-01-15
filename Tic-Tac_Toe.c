@@ -117,15 +117,17 @@ int checkWin(){
 
 void drawBoard(){
     system("cls");
-    printf("\n\n\t Tic Tac Toe \n\n");
+    printf("     Tic Tac Toe \n\n");
     printf("Plyer1 (X) - Player2 (O) \n\n\n");
-    printf("    |    |    \n");
-    printf(" %c  |   %c  |  %c  \n", base[1], base[2], base[3]);
-    printf("____|____|____\n");
-    printf("    |    |    \n");
-    printf(" %c  |   %c  |  %c  \n", base[4], base[5], base[6]);
-    printf("____|____|____\n");
-    printf("    |    |    \n");
-    printf(" %c  |   %c  |  %c  \n", base[7], base[8], base[9]);\
-    printf("    |    |    \n");
+    printf("        |    |    \n");
+    printf("     %c  |  %c |  %c  \n", base[1], base[2], base[3]);
+    printf("    ____|____|____\n");
+    printf("        |    |    \n");
+    printf("     %c  |  %c |  %c  \n", base[4], base[5], base[6]);
+    printf("    ____|____|____\n");
+    printf("        |    |    \n");
+    printf("     %c  |  %c |  %c  \n", base[7], base[8], base[9]);\
+    printf("        |    |    \n");
+    printf("\n");
+    printf("\n");
 }
