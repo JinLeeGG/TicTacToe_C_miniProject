@@ -4,7 +4,7 @@
 This is a simple command-line based Tic Tac Toe game written in C programming language. The game is played between two players and the goal is to place three of your symbols (either 'X' or 'O') in a horizontal, vertical, or diagonal row.
 
 ## Algorithms
-this is all possibilities of winning:
+this is all possibilities of winning in this game (https://geekflare.com/tic-tac-toe-python-code/):
 
 ![image](https://user-images.githubusercontent.com/98343991/212817992-ddbad16d-1d2e-49b8-87e0-0a3de1724cc7.png)
 
